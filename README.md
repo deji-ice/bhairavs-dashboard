@@ -63,6 +63,3 @@
 - Add options for managing notification preferences.
 - Store user preferences in Redux and update the UI based on those preferences.
 
----
-
-Feel free to adjust the formatting or content as needed!
