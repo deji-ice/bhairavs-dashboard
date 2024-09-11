@@ -12,7 +12,7 @@ function App() {
     <div className="flex  bg-[#e8e8e8] h-screen font-Jakarta">
       <Aside />
       <Routes>
-        <Route path="/" element={<Overview />} />
+        <Route path="/" element={<Overview />} />z
         <Route path="/task" element={<Task />} />
         <Route path="/mentors" element={<Mentors />} />
         <Route path="/messages" element={<Message />} />
