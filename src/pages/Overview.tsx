@@ -2,7 +2,7 @@ import React from 'react'
 
 const Overview = () => {
   return (
-    <div className='bg-white flex-[4] p-5'>Overview</div>
+    <div className='bg-green flex-[4] p-5'>Overview</div>
   )
 }
 
