@@ -17,7 +17,7 @@ const Header = ({ title, path }) => {
           <img className="h-[52px]" src="/Profil.png" alt="" />
         </span>
       </div>
-      {path == "/task" && (
+      {path == "/task"  && (
         <div className="flex justify-between  items-center">
           <span className="relative ">
             <input
@@ -35,6 +35,28 @@ const Header = ({ title, path }) => {
             <button className="bg-white flex justify-between items-center gap-3  py-2 px-3 border border-[#F5F5F7] rounded-md">
               <SortIcon/>
               Sort by: Deadline
+            </button>
+          </div>
+        </div>
+      )}
+         {path == "/mentors"  && (
+        <div className="flex justify-between  items-center">
+          <span className="relative ">
+            <input
+              placeholder="Search  mentors"
+              className=" placeholder:text-xs placeholder:pl-10 pl-5 placeholder:text-[#54577a] bg-white p-1 border border-[#F5F5F7] rounded-md"
+              type="text"
+            />
+            <SearchIcon className="absolute top-2 h-4 bottom-0 right-2" />
+          </span>
+          <div className="text-xs flex gap-4 font-semibold">
+            <button className="bg-white flex justify-between items-center gap-3  py-2 px-3 border border-[#F5F5F7] rounded-md">
+              <CategoryIcon />
+              Category
+            </button>
+            <button className="bg-white flex justify-between items-center gap-3  py-2 px-3 border border-[#F5F5F7] rounded-md">
+              <SortIcon/>
+              Sort by: Popular
             </button>
           </div>
         </div>
