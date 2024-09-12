@@ -2,7 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Aside from "./components/Aside";
 import Overview from "./pages/Overview";
-import Task from "./pages/Task";
+import Task from "./pages/tasks/Task";
 import Mentors from "./pages/Mentors";
 import Message from "./pages/Message";
 import Settings from "./pages/Settings";
