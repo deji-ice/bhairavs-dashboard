@@ -1,9 +1,10 @@
-import React from 'react'
+import Header from "../components/Header";
 
 const Overview = () => {
   return (
-    <div className='bg-green flex-[4] p-5'>Overview</div>
-  )
-}
-
-export default Overview
+    <div className="bg-[#fafafa] flex-[4] relative p-5">
+      <Header title={"Hi, Dennis Nzioki"} />
+    </div>
+  );
+};
+export default Overview;
