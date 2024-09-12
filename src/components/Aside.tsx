@@ -28,7 +28,7 @@ const Aside = () => {
             <OverviewIcon /> <p>Overview</p>
           </NavLink>
           <NavLink
-            to={"/Task"}
+            to={"/task"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500  text-black" : "hover:bg-gray-500"
@@ -38,7 +38,7 @@ const Aside = () => {
             <TaskIcon /> <p>Task</p>
           </NavLink>
           <NavLink
-            to={"/Mentors"}
+            to={"/mentors"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500 text-black" : "hover:bg-gray-500"
@@ -48,7 +48,7 @@ const Aside = () => {
             <MentorsIcon /> <p>Mentors</p>
           </NavLink>
           <NavLink
-            to={"/Messages"}
+            to={"/messages"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500  text-black" : "hover:bg-gray-500"
@@ -58,7 +58,7 @@ const Aside = () => {
             <MessagesIcon /> <p>Message</p>
           </NavLink>
           <NavLink
-            to={"/Settings"}
+            to={"/settings"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500  text-black" : "hover:bg-gray-500"
