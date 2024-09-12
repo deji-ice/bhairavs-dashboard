@@ -11,12 +11,12 @@ import HelpCenter from "./HelpCenter";
 
 const Aside = () => {
   return (
-    <aside className="flex flex-col flex-1 p-5">
+    <aside className="flex flex-col h-full  flex-1 p-5">
       <div>
         <Logo />
       </div>
-      <div className="flex flex-col justify-between h-full">
-        <div className="text-[#8E92BC] text-sm py-10 flex flex-col gap-5 font-semibold">
+      <div className="flex flex-col gap-12 justify-between h-full">
+        <div className="text-[#8E92BC] text-sm py-10 flex flex-col gap-3 font-semibold">
           <NavLink
             to={"/"}
             className={({ isActive }) =>
