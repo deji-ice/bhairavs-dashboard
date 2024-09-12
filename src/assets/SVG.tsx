@@ -342,3 +342,65 @@ export const CategoryIcon = () => {
     </svg>
   );
 };
+
+export const QuestionIcon = ({ className }) => {
+  return (
+    <svg
+      className={className}
+      width="96"
+      height="92"
+      viewBox="0 0 96 92"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_f_36_5530)">
+        <rect
+          x="24"
+          y="24"
+          width="48"
+          height="44"
+          rx="22"
+          fill="#141522"
+          fill-opacity="0.4"
+        />
+      </g>
+      <rect
+        x="26"
+        y="18"
+        width="44"
+        height="44"
+        rx="22"
+        fill="#141522"
+        stroke="white"
+        stroke-width="4"
+      />
+      <path
+        d="M48.844 45.764V45.12C48.844 43.692 49.908 42.852 51.28 41.872C52.904 40.724 54.836 39.296 54.836 36.3C54.836 32.576 52.316 30.168 48.144 30.168C44.084 30.168 41.144 32.996 41.144 37H44.7C44.7 34.844 46.072 33.36 48.06 33.36C50.02 33.36 51.196 34.62 51.196 36.524C51.196 38.148 50.048 39.1 48.788 40.108C47.304 41.256 45.736 42.572 45.736 45.12V45.764H48.844ZM47.416 51.364C48.648 51.364 49.684 50.328 49.684 49.152C49.684 47.92 48.648 46.912 47.416 46.912C46.156 46.912 45.148 47.92 45.148 49.152C45.148 50.356 46.156 51.364 47.416 51.364Z"
+        fill="white"
+      />
+      <defs>
+        <filter
+          id="filter0_f_36_5530"
+          x="0"
+          y="0"
+          width="96"
+          height="92"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="12"
+            result="effect1_foregroundBlur_36_5530"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
