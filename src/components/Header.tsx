@@ -8,7 +8,7 @@ const Header = ({ title, path }) => {
       <div className="flex items-center  justify-between">
         <div className="flex flex-col gap-2">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          {path == "/overview" && (
+          {path == "/" && (
             <p className="text-[#54577A]">Let's finish your task today!</p>
           )}
         </div>
