@@ -11,12 +11,12 @@ import HelpCenter from "./HelpCenter";
 
 const Aside = () => {
   return (
-    <aside className="flex flex-col flex-1 p-5">
+    <aside className="flex flex-col h-full  flex-1 p-5">
       <div>
         <Logo />
       </div>
-      <div className="flex flex-col justify-between h-full">
-        <div className="text-[#8E92BC] text-sm py-10 flex flex-col gap-5 font-semibold">
+      <div className="flex flex-col gap-12 justify-between h-full">
+        <div className="text-[#8E92BC] text-sm py-10 flex flex-col gap-3 font-semibold">
           <NavLink
             to={"/"}
             className={({ isActive }) =>
@@ -28,7 +28,7 @@ const Aside = () => {
             <OverviewIcon /> <p>Overview</p>
           </NavLink>
           <NavLink
-            to={"/Task"}
+            to={"/task"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500  text-black" : "hover:bg-gray-500"
@@ -38,7 +38,7 @@ const Aside = () => {
             <TaskIcon /> <p>Task</p>
           </NavLink>
           <NavLink
-            to={"/Mentors"}
+            to={"/mentors"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500 text-black" : "hover:bg-gray-500"
@@ -48,7 +48,7 @@ const Aside = () => {
             <MentorsIcon /> <p>Mentors</p>
           </NavLink>
           <NavLink
-            to={"/Messages"}
+            to={"/messages"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500  text-black" : "hover:bg-gray-500"
@@ -58,7 +58,7 @@ const Aside = () => {
             <MessagesIcon /> <p>Message</p>
           </NavLink>
           <NavLink
-            to={"/Settings"}
+            to={"/settings"}
             className={({ isActive }) =>
               `flex gap-4 py-2 px-3 rounded-lg ${
                 isActive ? "bg-gray-500  text-black" : "hover:bg-gray-500"
