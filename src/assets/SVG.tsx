@@ -183,14 +183,224 @@ export const MessagesIcon = () => {
   );
 };
 
-
-
 export const SettingsIcon = () => {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#8E92BC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2 12.88V11.12C2 10.08 2.85 9.22 3.9 9.22C5.71 9.22 6.45 7.94 5.54 6.37C5.02 5.47 5.33 4.3 6.24 3.78L7.97 2.79C8.76 2.32 9.78 2.6 10.25 3.39L10.36 3.58C11.26 5.15 12.74 5.15 13.65 3.58L13.76 3.39C14.23 2.6 15.25 2.32 16.04 2.79L17.77 3.78C18.68 4.3 18.99 5.47 18.47 6.37C17.56 7.94 18.3 9.22 20.11 9.22C21.15 9.22 22.01 10.07 22.01 11.12V12.88C22.01 13.92 21.16 14.78 20.11 14.78C18.3 14.78 17.56 16.06 18.47 17.63C18.99 18.54 18.68 19.7 17.77 20.22L16.04 21.21C15.25 21.68 14.23 21.4 13.76 20.61L13.65 20.42C12.75 18.85 11.27 18.85 10.36 20.42L10.25 20.61C9.78 21.4 8.76 21.68 7.97 21.21L6.24 20.22C5.33 19.7 5.02 18.53 5.54 17.63C6.45 16.06 5.71 14.78 3.9 14.78C2.85 14.78 2 13.92 2 12.88Z" stroke="#8E92BC" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M2 12.88V11.12C2 10.08 2.85 9.22 3.9 9.22C5.71 9.22 6.45 7.94 5.54 6.37C5.02 5.47 5.33 4.3 6.24 3.78L7.97 2.79C8.76 2.32 9.78 2.6 10.25 3.39L10.36 3.58C11.26 5.15 12.74 5.15 13.65 3.58L13.76 3.39C14.23 2.6 15.25 2.32 16.04 2.79L17.77 3.78C18.68 4.3 18.99 5.47 18.47 6.37C17.56 7.94 18.3 9.22 20.11 9.22C21.15 9.22 22.01 10.07 22.01 11.12V12.88C22.01 13.92 21.16 14.78 20.11 14.78C18.3 14.78 17.56 16.06 18.47 17.63C18.99 18.54 18.68 19.7 17.77 20.22L16.04 21.21C15.25 21.68 14.23 21.4 13.76 20.61L13.65 20.42C12.75 18.85 11.27 18.85 10.36 20.42L10.25 20.61C9.78 21.4 8.76 21.68 7.97 21.21L6.24 20.22C5.33 19.7 5.02 18.53 5.54 17.63C6.45 16.06 5.71 14.78 3.9 14.78C2.85 14.78 2 13.92 2 12.88Z"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
 
-  )
-}
+export const NotificationsIcon = () => {
+  return (
+    <svg
+      width="52"
+      height="52"
+      viewBox="0 0 52 52"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M17.5008 27.7871V27.5681C17.533 26.9202 17.7406 26.2925 18.1024 25.7496C18.7045 25.0975 19.1167 24.2983 19.2957 23.436C19.2957 22.7695 19.2957 22.0935 19.3539 21.427C19.6547 18.2184 22.8273 16 25.9611 16H26.0387C29.1725 16 32.345 18.2184 32.6555 21.427C32.7137 22.0935 32.6555 22.7695 32.704 23.436C32.8854 24.3003 33.2972 25.1019 33.8974 25.7591C34.2618 26.2972 34.4698 26.9227 34.4989 27.5681V27.7776C34.5206 28.648 34.2208 29.4968 33.6548 30.1674C32.907 30.9515 31.8921 31.4393 30.8024 31.5384C27.607 31.8812 24.383 31.8812 21.1876 31.5384C20.0991 31.435 19.0858 30.9479 18.3352 30.1674C17.778 29.4963 17.4822 28.6526 17.5008 27.7871Z"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M23.5549 34.8518C24.0542 35.4784 24.7874 35.884 25.5922 35.9787C26.3971 36.0734 27.2072 35.8495 27.8433 35.3564C28.0389 35.2106 28.2149 35.041 28.3672 34.8518"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <circle cx="32" cy="19" r="4" fill="#FF4D5E" />
+      <rect x="0.5" y="0.5" width="51" height="51" rx="25.5" stroke="#F5F5F7" />
+    </svg>
+  );
+};
+
+export const SearchIcon = ({ className }) => {
+  return (
+    <svg
+      className={className}
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_20_1619)">
+        <path
+          d="M9.58332 17.5001C13.9556 17.5001 17.5 13.9557 17.5 9.58341C17.5 5.21116 13.9556 1.66675 9.58332 1.66675C5.21107 1.66675 1.66666 5.21116 1.66666 9.58341C1.66666 13.9557 5.21107 17.5001 9.58332 17.5001Z"
+          stroke="#8E92BC"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M18.3333 18.3334L16.6667 16.6667"
+          stroke="#8E92BC"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_20_1619">
+          <rect width="20" height="20" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
+export const SortIcon = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 7H21"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+      />
+      <path
+        d="M6 12H18"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+      />
+      <path
+        d="M10 17H14"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+};
+
+export const CategoryIcon = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.5 19.9V4.1C10.5 2.6 9.86 2 8.27 2H4.23C2.64 2 2 2.6 2 4.1V19.9C2 21.4 2.64 22 4.23 22H8.27C9.86 22 10.5 21.4 10.5 19.9Z"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M22 10.9V4.1C22 2.6 21.36 2 19.77 2H15.73C14.14 2 13.5 2.6 13.5 4.1V10.9C13.5 12.4 14.14 13 15.73 13H19.77C21.36 13 22 12.4 22 10.9Z"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M22 19.9V18.1C22 16.6 21.36 16 19.77 16H15.73C14.14 16 13.5 16.6 13.5 18.1V19.9C13.5 21.4 14.14 22 15.73 22H19.77C21.36 22 22 21.4 22 19.9Z"
+        stroke="#8E92BC"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const QuestionIcon = ({ className }) => {
+  return (
+    <svg
+      className={className}
+      width="96"
+      height="92"
+      viewBox="0 0 96 92"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_f_36_5530)">
+        <rect
+          x="24"
+          y="24"
+          width="48"
+          height="44"
+          rx="22"
+          fill="#141522"
+          fill-opacity="0.4"
+        />
+      </g>
+      <rect
+        x="26"
+        y="18"
+        width="44"
+        height="44"
+        rx="22"
+        fill="#141522"
+        stroke="white"
+        stroke-width="4"
+      />
+      <path
+        d="M48.844 45.764V45.12C48.844 43.692 49.908 42.852 51.28 41.872C52.904 40.724 54.836 39.296 54.836 36.3C54.836 32.576 52.316 30.168 48.144 30.168C44.084 30.168 41.144 32.996 41.144 37H44.7C44.7 34.844 46.072 33.36 48.06 33.36C50.02 33.36 51.196 34.62 51.196 36.524C51.196 38.148 50.048 39.1 48.788 40.108C47.304 41.256 45.736 42.572 45.736 45.12V45.764H48.844ZM47.416 51.364C48.648 51.364 49.684 50.328 49.684 49.152C49.684 47.92 48.648 46.912 47.416 46.912C46.156 46.912 45.148 47.92 45.148 49.152C45.148 50.356 46.156 51.364 47.416 51.364Z"
+        fill="white"
+      />
+      <defs>
+        <filter
+          id="filter0_f_36_5530"
+          x="0"
+          y="0"
+          width="96"
+          height="92"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="12"
+            result="effect1_foregroundBlur_36_5530"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
