@@ -5,7 +5,12 @@ import {
   SortIcon,
 } from "../assets/SVG";
 
-const Header = ({ title, path }) => {
+type HeaderProps = {
+  title: string;
+  path: string;
+};
+
+const Header = ({ title, path }: HeaderProps) => {
   console.log(path);
   return (
     <header className="fixed bg-white top-0 py-5 left-[22%] px-8  gap-5 flex flex-col right-0 z-20   ">
