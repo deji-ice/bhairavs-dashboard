@@ -9,7 +9,7 @@ import Settings from "./pages/Settings";
 
 function App() {
   return (
-    <div className="flex  bg-[#e8e8e8] h-screen font-Jakarta">
+    <div className="flex  bg-[#e8e8e8] h-full font-Jakarta">
       <Aside />
       <Routes>
         <Route path="/" element={<Overview />} />z
