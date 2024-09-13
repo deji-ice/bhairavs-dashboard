@@ -3,6 +3,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import Select from "react-select";
 import Chart from "./Chart";
+import MiddlePart from "./MiddlePart";
 
 
 const options = [
@@ -31,6 +32,8 @@ const First = () => {
 
   return (
     <div className="flex gap-12 font-Jakarta text-white ">
+      <div className="flex flex-col">
+        <div className="flex gap-12">
       <div className="bg-[#141522] h-[214px] pl-6 w-[194px] py-5 rounded-xl flex flex-col gap-4">
         <h1 className="text-[16px] ">Running Task</h1>
         <h3 className="text-[32px] font-semibold">65</h3>
@@ -75,8 +78,15 @@ const First = () => {
         <div className="w-[422px] h-[130px] bg-white rounded-xl ">
        <Chart/>
         </div>
+        </div>
+        
       </div>
-      {/* middle part */}
+      <div className="">
+        {/* middle part */}
+        <MiddlePart/>
+      </div>
+      </div>
+      
       <div>
 
       </div>

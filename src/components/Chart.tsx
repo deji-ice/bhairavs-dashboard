@@ -12,11 +12,11 @@ import {
   const data = [
     { name: "S", task: 1 },
     { name: "M", task: 2 },
+    { name: "T", task: 1 },
+    { name: "W", task: 2.5 },
     { name: "T", task: 1.5 },
-    { name: "W", task: 3 },
-    { name: "T", task: 2.5 },
     { name: "F", task: 2 },
-    { name: "S", task: 1 },
+    { name: "S", task: 2 },
   ];
   
   // Custom Tooltip Component
