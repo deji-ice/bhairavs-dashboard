@@ -1,10 +1,14 @@
-import { CategoryIcon, NotificationsIcon, SearchIcon, SortIcon } from "../assets/SVG";
+import {
+  CategoryIcon,
+  NotificationsIcon,
+  SearchIcon,
+  SortIcon,
+} from "../assets/SVG";
 
 const Header = ({ title, path }) => {
-
   console.log(path);
   return (
-    <header className="fixed bg-white top-0 py-5 left-[22%] px-8  gap-5 flex flex-col right-0   ">
+    <header className="fixed bg-white top-0 py-5 left-[22%] px-8  gap-5 flex flex-col right-0 z-20   ">
       <div className="flex items-center  justify-between">
         <div className="flex flex-col gap-2">
           <h3 className="text-2xl font-semibold">{title}</h3>
@@ -17,7 +21,7 @@ const Header = ({ title, path }) => {
           <img className="h-[52px]" src="/Profil.png" alt="" />
         </span>
       </div>
-      {path == "/task"  && (
+      {path == "/task" && (
         <div className="flex justify-between  items-center">
           <span className="relative ">
             <input
@@ -33,13 +37,13 @@ const Header = ({ title, path }) => {
               Category
             </button>
             <button className="bg-white flex justify-between items-center gap-3  py-2 px-3 border border-[#F5F5F7] rounded-md">
-              <SortIcon/>
+              <SortIcon />
               Sort by: Deadline
             </button>
           </div>
         </div>
       )}
-         {path == "/mentors"  && (
+      {path == "/mentors" && (
         <div className="flex justify-between  items-center">
           <span className="relative ">
             <input
@@ -55,7 +59,7 @@ const Header = ({ title, path }) => {
               Category
             </button>
             <button className="bg-white flex justify-between items-center gap-3  py-2 px-3 border border-[#F5F5F7] rounded-md">
-              <SortIcon/>
+              <SortIcon />
               Sort by: Popular
             </button>
           </div>
