@@ -7,7 +7,7 @@ const MiddlePart = () => {
   return (
     <>
     <div className="flex justify-between text-black mt-[3rem] mb-[1rem]">
-        <h1 className="text-[24px] font-semibold">Monthly Mentors</h1>
+        <h1 className="text-[25px] font-semibold">Monthly Mentors</h1>
         <h3 className="flex">
         <FaGreaterThan />
         <FaLessThan/>
