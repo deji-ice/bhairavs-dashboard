@@ -29,7 +29,7 @@ const MiddlePart = () => {
                   {item.stack}
                 </span>
               </h1>
-              <h3 className="text-[14px] font-medium text-[#6981FF] ">
+              <h3 className="text-[14px] p font-medium text-[#6981FF] ">
                 {item.follow}
               </h3>
             </div>
