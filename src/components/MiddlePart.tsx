@@ -21,7 +21,7 @@ const MiddlePart = () => {
     });
   };
   return (
-    <div className="w-[688px] h-[200px] mt-[3rem]">
+    <div className="w-[688px] h-[200px] mt-[2.9rem]">
       <div className="flex items-center justify-between text-black  mb-[1rem] h-[36px] ">
         <h1 className="text-[25px] font-semibold">Monthly Mentors</h1>
         <h3 className="flex mr-4 gap-2">
