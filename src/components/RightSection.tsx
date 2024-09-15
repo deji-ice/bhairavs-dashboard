@@ -1,10 +1,10 @@
-import First from "./first"
+import Details from "./Details"
 
 
 const RightSection = () => {
   return (
     <div>
-      <First/>
+      <Details/>
     </div>
   )
 }

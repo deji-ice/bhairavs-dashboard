@@ -3,7 +3,8 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import Select from "react-select";
 import Chart from "./Chart";
-import MiddlePart from "./MiddlePart";
+import MonthlyMentor from "./MonthlyMentor";
+import Upcoming from "./Upcoming";
 
 
 const options = [
@@ -12,7 +13,7 @@ const options = [
   { value: "Upper", label: "upper" },
 ];
 // for the select 
-const First = () => {
+const Details = () => {
   const percent = 45;
 
   const [selectedOption, setSelectedOption] = useState<{
@@ -31,7 +32,7 @@ const First = () => {
  
 
   return (
-    <div className="flex gap-12 font-Jakarta text-white ">
+    <div className="flex gap-12 font-Jakarta text-white  ">
       <div className="flex flex-col">
         <div className="flex gap-12">
       <div className="bg-[#141522] h-[214px] pl-6 w-[194px] py-5 rounded-xl flex flex-col gap-4">
@@ -52,7 +53,7 @@ const First = () => {
       <div className="h-[214px] w-[462px]   flex flex-col  gap-4">
         <div className="flex justify-between  text-black font-semibold items-center">
           <h1>Activity</h1>
-          <div className="flex gap-2">
+          <div className="flex gap-2 mr-[25px]">
             <Select
               styles={{
                 control: (baseStyles, state) => ({
@@ -83,15 +84,14 @@ const First = () => {
       </div>
       <div className="">
         {/* middle part */}
-        <MiddlePart/>
+        <MonthlyMentor/>
+        <Upcoming/>
       </div>
       </div>
       
-      <div>
-
-      </div>
+   
     </div>
   );
 };
 
-export default First;
+export default Details;

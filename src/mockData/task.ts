@@ -8,8 +8,9 @@ export const tasks = [
     },
     title: "Creating Awesome Mobile Apps",
     name: "UI UX Design",
-    progress: "90%",
+    progress: "90",
     hour: "1hour",
+    days:"3days"
   },
   {
     id: 2,
@@ -20,8 +21,9 @@ export const tasks = [
     },
     title: "Creating Fresh Website",
     name: "Web Developer",
-    progress: "85%",
+    progress: "85",
     hour: "2hour",
+     days:"4days"
   },
   {
     id: 3,
@@ -33,8 +35,9 @@ export const tasks = [
 
     title: "Creating Color Palletes",
     name: "UI UX Design",
-    progress: "100%",
+    progress: "100",
     hour: "1hour",
+     days:"5days"
   },
   
 ];
