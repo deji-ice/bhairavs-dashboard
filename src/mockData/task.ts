@@ -41,3 +41,19 @@ export const tasks = [
   },
   
 ];
+export const today =[
+  {
+    id: 3,
+    image: {
+      img: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726050634/Task/Image_3_exmtmh.png",
+      studentImg:
+        "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726051894/Task/Student_n2ue76.png",
+    },
+
+    title: "Creating Color Palletes",
+    name: "UI UX Design",
+    progress: "90",
+    hour: "1 hour",
+     days:"5days"
+  }
+]
