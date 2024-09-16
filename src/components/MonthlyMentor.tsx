@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { data } from "../assets/Avuwa";
 import { FaGreaterThan, FaLessThan } from "react-icons/fa";
 
-const MiddlePart = () => {
+const MonthlyMentor = () => {
   const scrollContainerRef = useRef(null);
 
   // Scroll Left
@@ -24,7 +24,7 @@ const MiddlePart = () => {
     <div className="w-[688px] h-[200px] mt-[2.9rem]">
       <div className="flex items-center justify-between text-black  mb-[1rem] h-[36px] ">
         <h1 className="text-[25px] font-semibold">Monthly Mentors</h1>
-        <h3 className="flex mr-4 gap-2">
+        <h3 className="flex mr-[30px] gap-2 *:font-thin *:text-[13px]">
           <FaLessThan onClick={scrollLeft} className="cursor-pointer" />
           <FaGreaterThan onClick={scrollRight} className="cursor-pointer" />
         </h3>
@@ -71,4 +71,4 @@ const MiddlePart = () => {
   );
 };
 
-export default MiddlePart;
+export default MonthlyMentor;
